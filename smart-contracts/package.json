@@ -7,10 +7,11 @@
     "migrate": "truffle migrate"
   },
   "dependencies": {
-    "@thundercore/referral-solidity": "^1.0.1",
-    "openzeppelin-solidity": "^2.3.0",
+    "@thundercore/referral-solidity": "^1.0.7",
+    "@truffle/hdwallet-provider": "^1.2.2",
+    "openzeppelin-solidity": "^2.5.1",
     "truffle": "^5.1.22",
-    "@truffle/hdwallet-provider": "^1.0.34"
+    "truffle-hdwallet-provider": "^1.0.17"
   },
   "devDependencies": {
     "truffle-flattener": "^1.4.2",

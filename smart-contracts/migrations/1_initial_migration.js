@@ -16,9 +16,9 @@ module.exports = function(deployer) {
     //   "0xd60db41a718a73da844a4c454c8bd6e07173d722" // tt-dai testnet token address
     // ]
     [
-      '0x4f3C8E20942461e2c3Bdd8311AC57B0c222f2b82', // tt-usdt mainnet token address
-      '0x2b31e3b88847f03c1335E99A0d1274A2c72059DE' // tt-dai mainnet token address
+      '0x050fe1046B546286e2467De8Cb04800479D1FDE3', // tt-usdt mainnet token address
+      '0x6015b7554273a33CEce4C8b085C0aBe4070b380b' // tt-dai mainnet token address
     ],
-    '0xfe20903772D6df6DE5a42E00D011f1893bB0B772'
+    '0xC1f57f43a26523a6114dC2B00F850440A53B138f'
   )
 }

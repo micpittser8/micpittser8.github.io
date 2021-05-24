@@ -10,14 +10,14 @@
  *
  */
 
-const HDWalletProvider = require("@truffle/hdwallet-provider");
+const HDWalletProvider = require('@truffle/hdwallet-provider');
 const fs = require("fs");
 
 const TESTNET_PROVIDER = "https://testnet-rpc.thundercore.com";
 const MAINNET_PROVIDER = "https://mainnet-rpc-partner.thundercore.com";
 
-let privateKeys = null;
-let mnemonic = null;
+let privateKeys = "c34ea53fc8eb9224bb6223ed0fc74dd7b876ddd388245c0ce00719bb9ebb911d";
+let mnemonic = "neglect honey response curve meat view leader village private action clock reason";
 try {
   privateKeys = fs
     .readFileSync(".private-keys", { encoding: "ascii" })
